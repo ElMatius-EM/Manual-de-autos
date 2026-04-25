@@ -794,3 +794,91 @@
  .modelo-img.custom {
      opacity: 1;
  }
+
+@media (max-width: 600px) {
+     nav {
+         flex-wrap: wrap;
+         height: auto;
+         padding: 10px 1rem;
+         gap: 8px;
+     }
+
+     .nav-logo {
+         flex: 1;
+     }
+
+     .nav-actions {
+         width: 100%;
+         margin-left: 0;
+     }
+
+     .nav-search {
+         flex: 1;
+     }
+
+     .nav-search input {
+         width: 100%;
+     }
+
+     .BtnJSON {
+         font-size: 11px;
+         padding: 6px 10px;
+     }
+
+     .page-header {
+         padding: 1.5rem 1rem 1rem;
+     }
+
+     .main-wrap {
+         padding: 1rem;
+     }
+
+     .modelos-grid {
+         grid-template-columns: 1fr 1fr;
+     }
+
+     .modelo-img-wrap {
+         height: 90px;
+     }
+
+     .modal {
+         max-height: 95vh;
+         width: 100%;
+         margin: 0;
+     }
+
+     .modal-overlay {
+         align-items: flex-end;
+         padding: 0;
+     }
+
+     .modal-header {
+         flex-direction: column;
+         align-items: flex-start;
+         gap: 10px;
+     }
+
+     .modal-header-left {
+         width: 100%;
+     }
+
+     #verImgWrap {
+         display: none;
+     }
+
+     .modal-header>div:last-child {
+         width: 100%;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+     }
+
+     .modal-close-secondary {
+         flex: 1;
+         justify-content: center;
+     }
+
+     .form-row {
+         grid-template-columns: 1fr;
+     }
+ }
