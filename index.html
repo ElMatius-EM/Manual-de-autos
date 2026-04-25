@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manuales de Autos</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Barlow+Condensed:wght@400;600;700&family=Barlow:wght@400;500&display=swap"
+    rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-logo">
+      <div class="nav-logo-icon">⚙</div>
+      <div class="nav-logo-text">Manuales<br>de Autos</div>
+    </div>
+
+    <div class="nav-actions">
+      <button class="BtnJSON" id="btnDescargarJSON"><i data-lucide="save" width="16" height="16"></i> Bajar
+        JSON</button>
+
+      <div class="nav-search">
+        <input type="text" id="navSearch" placeholder="Buscar modelo...">
+        <button><i data-lucide="search" width="16" height="16"></i></button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HEADER -->
+  <div class="page-header">
+    <h1>Manuales de Autos</h1>
+  </div>
+
+  <!-- MAIN -->
+  <div class="main-wrap">
+    <div class="filters-bar">
+      <span class="filters-label">Filtrar por:</span>
+      <select id="filterMarca">
+        <option value="">Todas las marcas</option>
+      </select>
+    </div>
+    <div id="lista"></div>
+  </div>
+
+  <!-- MODAL VER -->
+  <div class="modal-overlay" id="modalVer">
+    <div class="modal">
+      <div class="modal-header">
+        <div class="modal-header-left">
+          <span class="modal-marca-badge" id="verMarca"></span>
+          <span class="modal-title" id="verTitulo"></span>
+        </div>
+        <div style="display:flex; align-items:center; gap:8px;">
+          <div id="verImgWrap"></div>
+          <button class="modal-close-secondary" id="verCambiarFoto">
+            <i data-lucide="image" width="14" height="14"></i> Cambiar foto
+          </button>
+          <button class="modal-close" id="verClose">✕</button>
+        </div>
+      </div>
+
+      <div class="modal-body">
+        <div class="modal-section-title">Generaciones disponibles</div>
+        <div id="verGeneraciones"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL CARGAR -->
+  <div class="modal-overlay" id="modalCargar">
+    <div class="modal modal-cargar">
+      <div class="modal-header">
+        <div class="modal-header-left">
+          <span class="modal-marca-badge" id="cargarMarca"></span>
+          <span class="modal-title">Agregar manual</span>
+        </div>
+        <button class="modal-close" id="cargarClose">✕</button>
+      </div>
+      <div class="modal-body">
+
+        <div class="form-group">
+          <label class="form-label">Modelo</label>
+          <select class="form-select" id="cargarModelo"></select>
+          <div id="nuevoModeloWrap" style="display:none; margin-top: 8px;">
+            <input class="form-input" type="text" id="nuevoModeloInput" placeholder="Ej: Ford Falcon">
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label">Generación</label>
+            <input class="form-input" type="text" id="cargarGen" placeholder="Ej: Gen 2">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Rango de años</label>
+            <div style="display:flex; align-items:center; gap:8px;">
+              <select class="form-select" id="anioDesde"></select>
+              <span style="color:var(--text-muted); font-size:13px;">hasta</span>
+              <select class="form-select" id="anioHasta"></select>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Manual (PDF)</label>
+          <div class="file-drop" id="fileDrop">
+            <div class="file-drop-icon">📄</div>
+            <div class="file-drop-text">Hacé clic o arrastrá el PDF acá</div>
+            <div class="file-drop-name" id="fileDropName"></div>
+          </div>
+          <input type="file" id="fileInput" accept=".pdf">
+          <span class="form-error" id="fileError">El PDF es obligatorio.</span>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Nota opcional</label>
+          <textarea class="form-textarea" id="cargarNota"
+            placeholder="Ej: Incluye diagrama eléctrico completo"></textarea>
+        </div>
+
+        <button class="btn-guardar" id="btnGuardar">Guardar manual</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"> </script>
+
+</body>
+
+</html>

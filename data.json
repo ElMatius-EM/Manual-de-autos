@@ -1,0 +1,754 @@
+[
+    {
+        "marca": "Ford",
+        "modelos": [
+            {
+                "nombre": "Fiesta",
+                "generaciones": [
+                    {
+                        "nombre": "Gen 1",
+                        "años": "2006–2012",
+                        "pdf": "#",
+                        "nota": ""
+                    },
+                    {
+                        "nombre": "Gen 2",
+                        "años": "2013–2019",
+                        "pdf": "#",
+                        "nota": ""
+                    }
+                ]
+            },
+            {
+                "nombre": "Focus",
+                "generaciones": [
+                    {
+                        "nombre": "Gen 2",
+                        "años": "2006–2011",
+                        "pdf": "#",
+                        "nota": ""
+                    },
+                    {
+                        "nombre": "Gen 3",
+                        "años": "2012–2019",
+                        "pdf": "#",
+                        "nota": ""
+                    }
+                ]
+            },
+            {
+                "nombre": "Ka",
+                "generaciones": [
+                    {
+                        "nombre": "Gen 1",
+                        "años": "2008–2013",
+                        "pdf": "#",
+                        "nota": ""
+                    },
+                    {
+                        "nombre": "Gen 2",
+                        "años": "2014–2018",
+                        "pdf": "#",
+                        "nota": ""
+                    }
+                ]
+            },
+            {
+                "nombre": "EcoSport",
+                "generaciones": [
+                    {
+                        "nombre": "Gen 1",
+                        "años": "2006–2012",
+                        "pdf": "#",
+                        "nota": ""
+                    },
+                    {
+                        "nombre": "Gen 2",
+                        "años": "2013–presente",
+                        "pdf": "#",
+                        "nota": ""
+                    }
+                ]
+            },
+            {
+                "nombre": "Ranger",
+                "generaciones": [
+                    {
+                        "nombre": "Gen 2",
+                        "años": "2006–2011",
+                        "pdf": "#",
+                        "nota": ""
+                    },
+                    {
+                        "nombre": "Gen 3",
+                        "años": "2012–2022",
+                        "pdf": "#",
+                        "nota": ""
+                    },
+                    {
+                        "nombre": "Gen 4",
+                        "años": "2023–presente",
+                        "pdf": "#",
+                        "nota": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "marca": "Chevrolet",
+        "modelos": [
+            {
+                "nombre": "Corsa",
+                "generaciones": [
+                    {
+                        "nombre": "Gen 2",
+                        "años": "2006–2012",
+                        "pdf": "#",
+                        "nota": ""
+                    }
+                ]
+            },
+            {
+                "nombre": "Agile",
+                "generaciones": [
+                    {
+                        "nombre": "Gen 1",
+                        "años": "2009–2016",
+                        "pdf": "#",
+                        "nota": ""
+                    }
+                ]
+            },
+            {
+                "nombre": "Cruze",
+                "generaciones": [
+                    {
+                        "nombre": "Gen 1",
+                        "años": "2011–2016",
+                        "pdf": "#",
+                        "nota": ""
+                    },
+                    {
+                        "nombre": "Gen 2",
+                        "años": "2017–presente",
+                        "pdf": "#",
+                        "nota": ""
+                    }
+                ]
+            },
+            {
+                "nombre": "Onix",
+                "generaciones": [
+                    {
+                        "nombre": "Gen 1",
+                        "años": "2013–2019",
+                        "pdf": "#",
+                        "nota": ""
+                    },
+                    {
+                        "nombre": "Gen 2",
+                        "años": "2020–presente",
+                        "pdf": "#",
+                        "nota": ""
+                    }
+                ]
+            },
+            {
+                "nombre": "S10",
+                "generaciones": [
+                    {
+                        "nombre": "Gen 2",
+                        "años": "2006–2011",
+                        "pdf": "#",
+                        "nota": ""
+                    },
+                    {
+                        "nombre": "Gen 3",
+                        "años": "2012–presente",
+                        "pdf": "#",
+                        "nota": ""
+                    }
+                ]
+            },
+            {
+                "nombre": "Tracker",
+                "generaciones": [
+                    {
+                        "nombre": "Gen 1",
+                        "años": "2013–2019",
+                        "pdf": "#",
+                        "nota": ""
+                    },
+                    {
+                        "nombre": "Gen 2",
+                        "años": "2020–presente",
+                        "pdf": "#",
+                        "nota": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "marca": "Volkswagen",
+        "modelos": [
+            {
+                "nombre": "Gol",
+                "generaciones": [
+                    {
+                        "nombre": "Gen 4",
+                        "años": "2006–2012",
+                        "pdf": "#",
+                        "nota": ""
+                    },
+                    {
+                        "nombre": "Gen 5",
+                        "años": "2013–presente",
+                        "pdf": "#",
+                        "nota": ""
+                    }
+                ]
+            },
+            {
+                "nombre": "Polo",
+                "generaciones": [
+                    {
+                        "nombre": "Gen 4",
+                        "años": "2006–2009",
+                        "pdf": "#",
+                        "nota": ""
+                    },
+                    {
+                        "nombre": "Gen 5",
+                        "años": "2010–2017",
+                        "pdf": "#",
+                        "nota": ""
+                    },
+                    {
+                        "nombre": "Gen 6",
+                        "años": "2018–presente",
+                        "pdf": "#",
+                        "nota": ""
+                    }
+                ]
+            },
+            {
+                "nombre": "Golf",
+                "generaciones": [
+                    {
+                        "nombre": "Gen 5",
+                        "años": "2006–2008",
+                        "pdf": "#",
+                        "nota": ""
+                    },
+                    {
+                        "nombre": "Gen 6",
+                        "años": "2009–2012",
+                        "pdf": "#",
+                        "nota": ""
+                    },
+                    {
+                        "nombre": "Gen 7",
+                        "años": "2013–presente",
+                        "pdf": "#",
+                        "nota": ""
+                    }
+                ]
+            },
+            {
+                "nombre": "Amarok",
+                "generaciones": [
+                    {
+                        "nombre": "Gen 1",
+                        "años": "2010–2022",
+                        "pdf": "#",
+                        "nota": ""
+                    },
+                    {
+                        "nombre": "Gen 2",
+                        "años": "2023–presente",
+                        "pdf": "#",
+                        "nota": ""
+                    }
+                ]
+            },
+            {
+                "nombre": "Suran",
+                "generaciones": [
+                    {
+                        "nombre": "Gen 1",
+                        "años": "2006–2018",
+                        "pdf": "#",
+                        "nota": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "marca": "Renault",
+        "modelos": [
+            {
+                "nombre": "Clio",
+                "generaciones": [
+                    {
+                        "nombre": "Gen 2",
+                        "años": "2006–2012",
+                        "pdf": "#",
+                        "nota": ""
+                    },
+                    {
+                        "nombre": "Gen 3",
+                        "años": "2013–2015",
+                        "pdf": "#",
+                        "nota": ""
+                    }
+                ]
+            },
+            {
+                "nombre": "Megane",
+                "generaciones": [
+                    {
+                        "nombre": "Gen 2",
+                        "años": "2006–2011",
+                        "pdf": "#",
+                        "nota": ""
+                    },
+                    {
+                        "nombre": "Gen 3",
+                        "años": "2012–2016",
+                        "pdf": "#",
+                        "nota": ""
+                    }
+                ]
+            },
+            {
+                "nombre": "Logan",
+                "generaciones": [
+                    {
+                        "nombre": "Gen 1",
+                        "años": "2006–2013",
+                        "pdf": "#",
+                        "nota": ""
+                    },
+                    {
+                        "nombre": "Gen 2",
+                        "años": "2014–presente",
+                        "pdf": "#",
+                        "nota": ""
+                    }
+                ]
+            },
+            {
+                "nombre": "Sandero",
+                "generaciones": [
+                    {
+                        "nombre": "Gen 1",
+                        "años": "2008–2013",
+                        "pdf": "#",
+                        "nota": ""
+                    },
+                    {
+                        "nombre": "Gen 2",
+                        "años": "2014–presente",
+                        "pdf": "#",
+                        "nota": ""
+                    }
+                ]
+            },
+            {
+                "nombre": "Duster",
+                "generaciones": [
+                    {
+                        "nombre": "Gen 1",
+                        "años": "2012–2017",
+                        "pdf": "#",
+                        "nota": ""
+                    },
+                    {
+                        "nombre": "Gen 2",
+                        "años": "2018–presente",
+                        "pdf": "#",
+                        "nota": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "marca": "Peugeot",
+        "modelos": [
+            {
+                "nombre": "206",
+                "generaciones": [
+                    {
+                        "nombre": "Gen 1",
+                        "años": "2006–2012",
+                        "pdf": "#",
+                        "nota": ""
+                    }
+                ]
+            },
+            {
+                "nombre": "207",
+                "generaciones": [
+                    {
+                        "nombre": "Gen 1",
+                        "años": "2007–2014",
+                        "pdf": "#",
+                        "nota": ""
+                    }
+                ]
+            },
+            {
+                "nombre": "208",
+                "generaciones": [
+                    {
+                        "nombre": "Gen 1",
+                        "años": "2013–2019",
+                        "pdf": "#",
+                        "nota": ""
+                    },
+                    {
+                        "nombre": "Gen 2",
+                        "años": "2020–presente",
+                        "pdf": "#",
+                        "nota": ""
+                    }
+                ]
+            },
+            {
+                "nombre": "308",
+                "generaciones": [
+                    {
+                        "nombre": "Gen 1",
+                        "años": "2008–2013",
+                        "pdf": "#",
+                        "nota": ""
+                    },
+                    {
+                        "nombre": "Gen 2",
+                        "años": "2014–presente",
+                        "pdf": "#",
+                        "nota": ""
+                    }
+                ]
+            },
+            {
+                "nombre": "Partner",
+                "generaciones": [
+                    {
+                        "nombre": "Gen 2",
+                        "años": "2006–2018",
+                        "pdf": "#",
+                        "nota": ""
+                    },
+                    {
+                        "nombre": "Gen 3",
+                        "años": "2019–presente",
+                        "pdf": "#",
+                        "nota": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "marca": "Fiat",
+        "modelos": [
+            {
+                "nombre": "Palio",
+                "generaciones": [
+                    {
+                        "nombre": "Gen 2",
+                        "años": "2006–2018",
+                        "pdf": "#",
+                        "nota": ""
+                    }
+                ]
+            },
+            {
+                "nombre": "Punto",
+                "generaciones": [
+                    {
+                        "nombre": "Gen 2",
+                        "años": "2006–2016",
+                        "pdf": "#",
+                        "nota": ""
+                    }
+                ]
+            },
+            {
+                "nombre": "Cronos",
+                "generaciones": [
+                    {
+                        "nombre": "Gen 1",
+                        "años": "2018–presente",
+                        "pdf": "#",
+                        "nota": ""
+                    }
+                ]
+            },
+            {
+                "nombre": "Strada",
+                "generaciones": [
+                    {
+                        "nombre": "Gen 2",
+                        "años": "2006–2020",
+                        "pdf": "#",
+                        "nota": ""
+                    },
+                    {
+                        "nombre": "Gen 3",
+                        "años": "2021–presente",
+                        "pdf": "#",
+                        "nota": ""
+                    }
+                ]
+            },
+            {
+                "nombre": "Uno",
+                "generaciones": [
+                    {
+                        "nombre": "Gen 2",
+                        "años": "2011–presente",
+                        "pdf": "#",
+                        "nota": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "marca": "Toyota",
+        "modelos": [
+            {
+                "nombre": "Corolla",
+                "generaciones": [
+                    {
+                        "nombre": "Gen 10",
+                        "años": "2006–2013",
+                        "pdf": "#",
+                        "nota": ""
+                    },
+                    {
+                        "nombre": "Gen 11",
+                        "años": "2014–2018",
+                        "pdf": "#",
+                        "nota": ""
+                    },
+                    {
+                        "nombre": "Gen 12",
+                        "años": "2019–presente",
+                        "pdf": "#",
+                        "nota": ""
+                    }
+                ]
+            },
+            {
+                "nombre": "Hilux",
+                "generaciones": [
+                    {
+                        "nombre": "Gen 7",
+                        "años": "2006–2015",
+                        "pdf": "#",
+                        "nota": ""
+                    },
+                    {
+                        "nombre": "Gen 8",
+                        "años": "2016–presente",
+                        "pdf": "#",
+                        "nota": ""
+                    }
+                ]
+            },
+            {
+                "nombre": "SW4",
+                "generaciones": [
+                    {
+                        "nombre": "Gen 3",
+                        "años": "2006–2015",
+                        "pdf": "#",
+                        "nota": ""
+                    },
+                    {
+                        "nombre": "Gen 4",
+                        "años": "2016–presente",
+                        "pdf": "#",
+                        "nota": ""
+                    }
+                ]
+            },
+            {
+                "nombre": "Etios",
+                "generaciones": [
+                    {
+                        "nombre": "Gen 1",
+                        "años": "2013–2022",
+                        "pdf": "#",
+                        "nota": ""
+                    }
+                ]
+            },
+            {
+                "nombre": "Yaris",
+                "generaciones": [
+                    {
+                        "nombre": "Gen 4",
+                        "años": "2019–presente",
+                        "pdf": "#",
+                        "nota": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "marca": "Honda",
+        "modelos": [
+            {
+                "nombre": "Civic",
+                "generaciones": [
+                    {
+                        "nombre": "Gen 8",
+                        "años": "2006–2011",
+                        "pdf": "#",
+                        "nota": ""
+                    },
+                    {
+                        "nombre": "Gen 9",
+                        "años": "2012–2015",
+                        "pdf": "#",
+                        "nota": ""
+                    },
+                    {
+                        "nombre": "Gen 10",
+                        "años": "2016–presente",
+                        "pdf": "#",
+                        "nota": ""
+                    }
+                ]
+            },
+            {
+                "nombre": "Fit",
+                "generaciones": [
+                    {
+                        "nombre": "Gen 2",
+                        "años": "2006–2014",
+                        "pdf": "#",
+                        "nota": ""
+                    },
+                    {
+                        "nombre": "Gen 3",
+                        "años": "2015–presente",
+                        "pdf": "#",
+                        "nota": ""
+                    }
+                ]
+            },
+            {
+                "nombre": "CR-V",
+                "generaciones": [
+                    {
+                        "nombre": "Gen 3",
+                        "años": "2006–2011",
+                        "pdf": "#",
+                        "nota": ""
+                    },
+                    {
+                        "nombre": "Gen 4",
+                        "años": "2012–2016",
+                        "pdf": "#",
+                        "nota": ""
+                    },
+                    {
+                        "nombre": "Gen 5",
+                        "años": "2017–presente",
+                        "pdf": "#",
+                        "nota": ""
+                    }
+                ]
+            },
+            {
+                "nombre": "HR-V",
+                "generaciones": [
+                    {
+                        "nombre": "Gen 1",
+                        "años": "2015–2021",
+                        "pdf": "#",
+                        "nota": ""
+                    },
+                    {
+                        "nombre": "Gen 2",
+                        "años": "2022–presente",
+                        "pdf": "#",
+                        "nota": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "marca": "Citroën",
+        "modelos": [
+            {
+                "nombre": "C3",
+                "generaciones": [
+                    {
+                        "nombre": "Gen 1",
+                        "años": "2006–2009",
+                        "pdf": "#",
+                        "nota": ""
+                    },
+                    {
+                        "nombre": "Gen 2",
+                        "años": "2010–2016",
+                        "pdf": "#",
+                        "nota": ""
+                    },
+                    {
+                        "nombre": "Gen 3",
+                        "años": "2017–presente",
+                        "pdf": "#",
+                        "nota": ""
+                    }
+                ]
+            },
+            {
+                "nombre": "C4",
+                "generaciones": [
+                    {
+                        "nombre": "Gen 1",
+                        "años": "2006–2010",
+                        "pdf": "#",
+                        "nota": ""
+                    },
+                    {
+                        "nombre": "Gen 2",
+                        "años": "2011–presente",
+                        "pdf": "#",
+                        "nota": ""
+                    }
+                ]
+            },
+            {
+                "nombre": "Berlingo",
+                "generaciones": [
+                    {
+                        "nombre": "Gen 2",
+                        "años": "2006–2018",
+                        "pdf": "#",
+                        "nota": ""
+                    },
+                    {
+                        "nombre": "Gen 3",
+                        "años": "2019–presente",
+                        "pdf": "#",
+                        "nota": ""
+                    }
+                ]
+            }
+        ]
+    }
+]
